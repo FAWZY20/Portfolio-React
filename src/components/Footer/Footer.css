@@ -1,0 +1,62 @@
+.footer{
+    background-color: #2DABE3;
+    color: white;
+    text-align: center;
+    padding: 1rem 1.5rem 4rem;
+}
+
+.proverbe{
+    padding-top: 9.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.proverbe-text{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.logo-footer{
+    padding-bottom: 30px;
+}
+
+.start-project{
+    position: relative;
+    top: 86px;
+    color: white;
+    background-color: #141C3A;
+    box-shadow: 1px 1px 12px #141C3A;
+    padding: 3.5rem 1.25rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.start-project-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faisons-ca{
+    padding: 0.6em 2em !important;
+} 
+
+.icon{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    height: 50px !important;
+    width: 40px !important;
+    color: white;
+}
+
+.icon-resaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

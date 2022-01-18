@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+    margin-top: 80px !important;
+}
+
+.title h1{
+    font-weight: 800;
+    font-size: 3rem !important;
+}
+
+.title h2{
+    font-size: 1.3rem !important;    
+}
+
+.bitmojie{
+    border-radius: 200px ;
+    margin: 40px;
+    margin-bottom: 60px;
+}

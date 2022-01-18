@@ -1,0 +1,11 @@
+.company-title h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 650;
+    font-size: 30px;
+}
+
+.entreprise-img{
+    display: flex;
+    justify-content: center;
+}

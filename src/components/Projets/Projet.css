@@ -1,0 +1,28 @@
+.projet-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.projet-title h2{
+    font-weight: 650;
+    font-size: 30px;
+}
+
+.projet-title p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.project-image{
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px #555;
+}
+
+.project-list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,58 @@
+.presentation{
+    color: white;
+    padding: 150px;
+    background-color: #2DABE3;
+    text-align: center;
+}
+
+.presentation-title h3{
+    font-weight: 700;
+}
+
+.presentation-text{
+    padding-left: 200px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 200px;
+    margin-bottom: 130px;
+}
+
+.competence-block{
+    position: relative;
+    bottom: 150px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.competence{
+    border-right: 1px solid rgba(43, 42, 42, 0.2);
+}
+
+.front-icon, .back-icon{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text{
+    text-align: center;
+}
+
+.text-subtitle{
+    color: #2DABE3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list-competence{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
