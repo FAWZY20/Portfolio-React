@@ -27,7 +27,7 @@ function Presentation() {
             </div>
             <div className='container competence-block'>
                 <div className='row'>
-                    <div className='competence col-lg-3'>
+                    <div className='competence col-lg-4'>
                         <div className='front-icon'>
                             <img src={Frontend} width={100} height={100} alt='' />
                             <p>Frontend</p>
@@ -46,7 +46,7 @@ function Presentation() {
                             </ul>
                         </div>
                     </div>
-                    <div className='competence col-lg-3'>
+                    <div className='competence col-lg-4'>
                         <div className='back-icon'>
                             <img src={Backend} width={100} height={100} alt='' />
                             <p>Backend</p>
@@ -62,28 +62,21 @@ function Presentation() {
                             </ul>
                         </div>
                     </div>
-                    <div className='competence col-lg-3'>
+                    <div className='competence col-lg-4'>
                         <div className='back-icon'>
                             <img src={Database} width={100} height={100} alt='' />
                             <p>Database</p>
                         </div>
                         <div className='text'>
-                            <p>
-
-                            </p>
                             <p className='text-subtitle' >Langues que je parle :</p>
-                        </div>
-                    </div>
-                    <div className='col-lg-3'>
-                        <div className='back-icon'>
-                            <img src={Devops} width={100} height={100} alt='' />
-                            <p>DevOps</p>
-                        </div>
-                        <div className='text'>
                             <p>
-
+                                <ul className='list-competence'>
+                                    <li>SQL</li>
+                                    <li>MySQM</li>
+                                    <li>Postgres</li>
+                                    <li>PhpMyAdmin</li>
+                                </ul>
                             </p>
-                            <p className='text-subtitle' >Langues que je parle :</p>
                         </div>
                     </div>
                 </div>

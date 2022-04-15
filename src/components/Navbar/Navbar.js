@@ -11,7 +11,7 @@ function Navbar() {
             <img className='logo' src={logo} width={90} height={90} alt='' />
           </div>
           <div className='col-lg-6 navbar-right'>
-            <Button className='contact' variant="outline-primary">Me contacter</Button>{' '}
+            <Button href='/contact' className='contact' variant="outline-primary">Me contacter</Button>{' '}
           </div>
         </div>
       </div>

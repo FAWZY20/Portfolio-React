@@ -1,16 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App';
+import Acceuil from './pages/Acceuil/Acceuil.js';
+import Contact from './pages/Contact/Contact.js';
+import { 
+  BrowserRouter, 
+  Routes,
+  Route,
+ } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<Acceuil />} />
+        <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
