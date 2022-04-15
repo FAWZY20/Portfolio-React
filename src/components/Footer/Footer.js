@@ -20,7 +20,7 @@ function Footer() {
                             </p>
                         </div>
                         <div className="col-lg-4 start-project-block"  >
-                            <Button className='contact faisons-ca' variant="outline-primary">Faisons cela</Button>{' '}
+                            <Button href="/contact" className='contact faisons-ca' variant="outline-primary">Faisons cela</Button>{' '}
                         </div>
                     </div>
                 </div>
