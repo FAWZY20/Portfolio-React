@@ -1,16 +1,11 @@
 import './Cv.css';
 import { Button } from 'react-bootstrap';
-import Cvv from './Fawzy ELSAM.pdf';
 import { saveAs } from 'file-saver';
+import { Link } from "react-router-dom";
+
 
 
 function Cv() {
-    const saveFile = () => {
-        saveAs(
-            "https://drive.google.com/file/d/1qIiD8Z7QDtAjU0oien-LByT5DrvXbG2_/view",
-            "example.pdf"
-        );
-    };
     return (
         <div className='cv-block'>
             <div className='cv-question-block'>
@@ -18,7 +13,10 @@ function Cv() {
                 <p className='cv-question-text' >Télecharger mon Cv afin d'en savoir sur mon profil.</p>
             </div>
             <div className='cv-button-block' >
-                <Button onClick={saveFile} className='dowload' variant="outline-primary">Telecharger ICI !</Button>
+                {/* <Button to="../../assets/cv.pdf" target="_blank" download className='dowload' variant="outline-primary">Telecharger ICI !</Button> */}
+                <Button className='dowload' variant="outline-primary">
+                    <Link to="/" target="_blank" download="cv.pdf">Telecharger ICI !</Link>
+                </Button>
             </div>
         </div>
     );
