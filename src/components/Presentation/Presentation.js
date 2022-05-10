@@ -35,9 +35,7 @@ function Presentation() {
                         <div className='text'>
                             <p className='text-subtitle' >Langues que je parle :</p>
                             <ul className='list-competence'>
-                                <li>Html</li>
-                                <li>Css</li>
-                                <li>Js</li>
+                                <li>Html / Css / Js</li>
                                 <li>Jquery</li>
                                 <li>TypeScript</li>
                                 <li>React</li>
@@ -55,9 +53,9 @@ function Presentation() {
                             <p className='text-subtitle' >Langues que je parle :</p>
                             <ul className='list-competence'>
                                 <li>PHP</li>
-                                <li>C#</li>
                                 <li>Java</li>
                                 <li>Python</li>
+                                <li>NodeJs</li>
                                 <li>Express</li>
                             </ul>
                         </div>
