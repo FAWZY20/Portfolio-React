@@ -10,3 +10,10 @@
 .contact-submit{
     margin-top: 3%;
 }
+
+.sucess-message{
+    margin-top: 3%;
+    border: 1px solid black;
+    color: rgb(0, 87, 19);
+    font-weight: bold;
+}
