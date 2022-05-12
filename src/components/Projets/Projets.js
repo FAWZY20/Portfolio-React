@@ -1,7 +1,25 @@
 import './Projet.css';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
+import { Table, Button } from 'react-bootstrap';
 
 
 function Projets() {
+
+    const [repo, setRepos] = useState([])
+
+    const fetchRepos = async () => {
+
+        const { data } = await axios.get(`https://api.github.com/users/fawzy20/repos`)
+
+        setRepos(data)
+
+    }
+
+    useEffect(() => {
+        fetchRepos()
+    }, [])
+
     return (
         <div className="container-fluid" >
             <div className="container">
@@ -11,18 +29,30 @@ function Projets() {
                         <p>Voici quelques projets de design sur lesquels j'ai travaillé récemment.</p>
                     </div>
                 </div>
-                {/* <div className='row project-list'>
-                    <ul>
-                        {projets.map((projet) => (
-                            <li key={projet.id} className='col-lg-4' >
-                                <img className='project-image' src={projet.image} width={383.99} height={255.99} alt='' />
-                                <figcaption>
-                                    <p>{projet.nom}</p>
-                                </figcaption>
-                            </li>
-                        ))}
-                    </ul>
-                </div> */}
+                <div className='table-repo' >
+                    <Table striped bordered hover>
+                        <thead>
+                            <tr>
+                                <th>Repository</th>
+                                <th>Language</th>
+                                <th>Date de création</th>
+                                <th>Voir le Repository</th>   
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                repo.map((repository) => (
+                                    <tr>
+                                        <td>{repository?.name}</td>
+                                        <td> {repository?.language}</td>
+                                        <td>{repository?.created_at}</td>
+                                        <td><Button href={repository?.html_url}>Voir le repository</Button></td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </Table>
+                </div>
             </div>
         </div>
     );
