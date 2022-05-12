@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 
 const Result = () => {
-    return(
+    return (
         <div className='sucess-message' >
             <p>votre message à bien était envoyer !</p>
         </div>
@@ -18,18 +18,18 @@ const Result = () => {
 }
 
 function FormContact() {
-    
+
     const [result, showResult] = useState(false);
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm("service_2mqx5gp", "template_cv7qg99", e.target, "1x0g9sVHu9hOWIqNZ")
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset();
-          showResult(true);
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset();
+        showResult(true);
     };
 
     setTimeout(() => {
@@ -63,10 +63,10 @@ function FormContact() {
                             <Form.Control as="textarea" name='message' placeholder="Message" rows={3} />
                         </Form.Group>
                         <Button className='contact-submit' variant="primary" type="submit">Envoyer</Button>
-                       <div className='row' >
-                            {result ? <Result /> : null}
-                        </div>
                     </Form>
+                    <div className='row' >
+                        {result ? <Result /> : null}
+                    </div>
                 </div>
             </div>
         </div>

@@ -46,7 +46,7 @@ function Projets() {
                                         <td>{repository?.name}</td>
                                         <td> {repository?.language}</td>
                                         <td>{repository?.created_at}</td>
-                                        <td><Button href={repository?.html_url}>Voir le repository</Button></td>
+                                        <td><Button href={repository?.html_url} target="_blank" >Voir le repository</Button></td>
                                     </tr>
                                 ))
                             }
