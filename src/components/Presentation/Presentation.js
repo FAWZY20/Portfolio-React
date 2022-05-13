@@ -27,7 +27,7 @@ function Presentation() {
             </div>
             <div className='container competence-block'>
                 <div className='row'>
-                    <div className='competence col-lg-4'>
+                    <div className='competence col-4'>
                         <div className='front-icon'>
                             <img src={Frontend} width={100} height={100} alt='' />
                             <p>Frontend</p>
@@ -44,7 +44,7 @@ function Presentation() {
                             </ul>
                         </div>
                     </div>
-                    <div className='competence col-lg-4'>
+                    <div className='competence col-4'>
                         <div className='back-icon'>
                             <img src={Backend} width={100} height={100} alt='' />
                             <p>Backend</p>
@@ -60,7 +60,7 @@ function Presentation() {
                             </ul>
                         </div>
                     </div>
-                    <div className='competence col-lg-4'>
+                    <div className='competence col-4'>
                         <div className='back-icon'>
                             <img src={Database} width={100} height={100} alt='' />
                             <p>Database</p>

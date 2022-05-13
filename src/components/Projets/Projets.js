@@ -9,11 +9,8 @@ function Projets() {
     const [repo, setRepos] = useState([])
 
     const fetchRepos = async () => {
-
         const { data } = await axios.get(`https://api.github.com/users/fawzy20/repos`)
-
         setRepos(data)
-
     }
 
     useEffect(() => {

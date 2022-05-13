@@ -9,3 +9,17 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 450px) {
+
+    .project-list ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .entreprise-img{
+        margin-bottom: 50px !important;
+    }
+}

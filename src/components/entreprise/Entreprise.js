@@ -5,8 +5,8 @@ import { entreprises } from '../../datas/entreprise';
 function Entrepise() {
 
     return (
-        <div className="container-fluid">
-            <div className="container">
+        <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="company-title" >
                         <h2>Je suis fier d'avoir collaboré avec<br /> des entreprises formidables :</h2>

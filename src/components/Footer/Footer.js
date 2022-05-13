@@ -41,21 +41,21 @@ function Footer() {
                         </div>
                         <div className="icon-resaux">
                             <div>
-                                <a href="">
+                                <a href="https://github.com/FAWZY20">
                                     <span>
                                         <VscGithubAlt className="icon" />
                                     </span>
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="https://www.linkedin.com/in/fawzy-elsam-b18040150/">
                                     <span>
                                         <SiLinkedin className="icon" />
                                     </span>
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="mailto: fawzy-elsam@outlook.fr">
                                     <span>
                                         <SiMicrosoftoutlook className="icon" />
                                     </span>

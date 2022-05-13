@@ -56,3 +56,25 @@
     padding: 0;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 450px){
+    .front-icon img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .back-icon img{
+         height: 50px;
+        width: 50px;
+    }
+
+    .presentation-text{
+        padding: 0px;
+    }
+
+    .presentation{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        padding: 0px;
+    }
+}
