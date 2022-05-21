@@ -13,9 +13,7 @@ function Cv() {
                 <p className='cv-question-text' >Télecharger mon Cv afin d'en savoir sur mon profil.</p>
             </div>
             <div className='cv-button-block' >
-                <Button className='dowload' variant="outline-primary">
-                    <Link to="/" className='dowload-link'  target="_blank" download="cv.pdf">Telecharger ICI !</Link>
-                </Button>
+                <Button href='https://www.canva.com/design/DAEoDfaLTyg/view' className='dowload' target="_blank" variant="outline-primary"> Telecharger ICI ! </Button>
             </div>
         </div>
     );
