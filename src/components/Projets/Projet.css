@@ -40,3 +40,8 @@
     overflow-y: scroll;
     margin-bottom: 5em;
 }
+
+.form-language{
+    width: 120px !important;
+    margin: 20px;
+}

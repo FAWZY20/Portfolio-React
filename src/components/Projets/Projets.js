@@ -6,6 +6,9 @@ import { Table, Button } from 'react-bootstrap';
 function Projets() {
 
     const [repo, setRepos] = useState([]);
+    const [selectedCategory, setSelectedCategory] = useState('');
+    const [filteredData, setFilteredData] = useState([]); // Données filtrées
+
 
     const fetchRepos = async () => {
         const { data } = await axios.get(`https://api.github.com/users/fawzy20/repos`)
@@ -13,14 +16,23 @@ function Projets() {
     }
 
     const formatDate = (string) => {
-        var options = { 
-            year: 'numeric', 
-            month: 'numeric', 
-            day: 'numeric' 
+        var options = {
+            year: 'numeric',
+            month: 'numeric',
+            day: 'numeric'
         };
 
         return new Date(string).toLocaleDateString([], options);
     }
+
+    useEffect(() => {
+        if (selectedCategory === '') {
+            setFilteredData(repo);
+        } else {
+            const filtered = repo.filter(item => item.language === selectedCategory);
+            setFilteredData(filtered);
+        }
+    }, [selectedCategory, repo]);
 
     useEffect(() => {
         fetchRepos()
@@ -33,6 +45,17 @@ function Projets() {
                     <div className="projet-title" >
                         <h2>Mon travail récent</h2>
                         <p>Voici quelques projets de design sur lesquels j'ai travaillé récemment.</p>
+                    </div>
+                    <div>
+                        <label>Sélectionnez un language :</label>
+                        <select class="form-language form-control" onChange={(e) => setSelectedCategory(e.target.value)}>
+                            <option value="">Language</option>
+                            {
+                                repo.map((repository) => (
+                                    <option value={repository?.language}>{repository?.language}</option>
+                                ))
+                            }
+                        </select>
                     </div>
                 </div>
                 <div className='table-repo' >
@@ -47,11 +70,10 @@ function Projets() {
                         </thead>
                         <tbody>
                             {
-
-                                repo.map((repository) => (
+                                filteredData.map((repository) => (
                                     <tr>
                                         <td>{repository?.name}</td>
-                                        <td> {repository?.language}</td>
+                                        <td>{repository?.language}</td>
                                         <td>{formatDate(repository?.created_at)}</td>
                                         <td><Button href={repository?.html_url} target="_blank" >Voir le repository</Button></td>
                                     </tr>
