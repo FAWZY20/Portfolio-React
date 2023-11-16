@@ -30,8 +30,15 @@ export const entreprises = [
     {
         id: ++id,
         image:'https://media-exp1.licdn.com/dms/image/C560BAQGsKEfXEbxQzA/company-logo_200_200/0/1520969877323?e=2159024400&v=beta&t=eZxdST0CxK6_MKln7ZOeFdbnL5cclq1FFppPSvuyax8',
-        nom:'Buroclick',
+        nom:'All IN APPLI',
+        lien:''
+    },
+    {
+        id: ++id,
+        image:'https://static.amundi.com/amundi/extension/ez_front_builds/design/amundi_country_build/images/amundi-visuel.123abc.jpg',
+        nom:'AMUNDI',
         lien:''
     }
+
 
 ]
