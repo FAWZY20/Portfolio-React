@@ -17,7 +17,7 @@ function Entrepise() {
                 <ul>
                     {entreprises.map((entreprise) => (
                         <li key={entreprise.id} className='entreprise-img col-lg-2' >
-                            <img src={entreprise.image} width={110} height={80} alt='' />
+                            <img src={entreprise.image} width={150} height={120} alt='' />
                         </li>
                     ))}
                 </ul>
