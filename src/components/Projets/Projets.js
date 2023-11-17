@@ -38,6 +38,8 @@ function Projets() {
         fetchRepos()
     }, [])
 
+    const renderedValues = new Set();
+
     return (
         <div className="container-fluid" >
             <div className="container">
@@ -51,9 +53,14 @@ function Projets() {
                         <select class="form-language form-control" onChange={(e) => setSelectedCategory(e.target.value)}>
                             <option value="">Language</option>
                             {
-                                repo.map((repository) => (
-                                    <option value={repository?.language}>{repository?.language}</option>
-                                ))
+                                repo.map((repository) => {
+                                    if (!renderedValues.has(repository.language)) {
+                                        renderedValues.add(repository.language);
+                                        return <option value={repository?.language} s>{repository?.language}</option>;
+                                    }else{
+                                        return null;
+                                    }
+                                })
                             }
                         </select>
                     </div>
