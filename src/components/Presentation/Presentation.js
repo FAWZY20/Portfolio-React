@@ -18,7 +18,7 @@ function Presentation() {
                                     il y a près de 5 ans, j'ai effectué du travail pour des agences, pour créer
                                     des produits numériques destinés à la fois aux entreprises et aux consommateurs.
                                     Je suis tranquillement confiant, naturellement curieux et je travaille sans cesse
-                                    à améliorer mes côtelettes, un problème de conception à la fois.
+                                    à améliorer mes competence, un problème de conception à la fois.
                                 </p>
                             </div>
                         </div>
