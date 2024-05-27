@@ -26,7 +26,7 @@ function Presentation() {
             </div>
             <div className='container competence-block'>
                 <div className='row'>
-                    <div className='competence col-4'>
+                    <div className='competence col-3'>
                         <div className='front-icon'>
                             <img src={Frontend} width={100} height={100} alt='' />
                             <p>Frontend</p>
@@ -42,7 +42,7 @@ function Presentation() {
                             </ul>
                         </div>
                     </div>
-                    <div className='competence col-4'>
+                    <div className='competence col-3'>
                         <div className='back-icon'>
                             <img src={Backend} width={100} height={100} alt='' />
                             <p>Backend</p>
@@ -61,7 +61,7 @@ function Presentation() {
                             </ul>
                         </div>
                     </div>
-                    <div className='competence col-4'>
+                    <div className='competence col-3'>
                         <div className='back-icon'>
                             <img src={Database} width={100} height={100} alt='' />
                             <p>Database</p>
@@ -78,6 +78,26 @@ function Presentation() {
                                     <li>PhpMyAdmin</li>
                                     <li>PySpark</li>
                                     <li>GraphQL</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div className='competence col-3'>
+                        <div className='back-icon'>
+                            <img src={Devops} width={100} height={100} alt='' />
+                            <p>Devops</p>
+                        </div>
+                        <div className='text'>
+                            <p className='text-subtitle' >Langues que je parle :</p>
+                            <p>
+                                <ul className='list-competence'>
+                                    <li>Docker</li>
+                                    <li>Jenkins</li>
+                                    <li>Git</li>
+                                    <li>GitLab</li>
+                                    <li>Bash</li>
+                                    <li>Jira</li>
+                                    <li>Confluence</li>
                                 </ul>
                             </p>
                         </div>
