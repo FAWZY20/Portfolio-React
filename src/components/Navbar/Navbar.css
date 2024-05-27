@@ -1,6 +1,6 @@
 .contact{
-    color: #52C6D4;
-    border-color: #52C6D4 !important;
+    color: #152032 !important;
+    border-color: #152032 !important;
     border-radius: 200px !important;
     font-weight: 500 !important;
     border-width: 2px !important;
@@ -25,8 +25,9 @@
     align-items: center;
 }
 
-.contact::after{
+.contact:hover{
     color: white !important;
+    background-color: #152032 !important;
 }
 
 @media screen and (max-width: 450px) {

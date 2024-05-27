@@ -15,8 +15,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 start-project-block"  >
                             <p>
-                                Intéressé à travailler ensemble? On devrait faire <br />
-                                la queue pour discuter. Je vais acheter le café.
+                                Vous souhaitez collaborer ? Prenons rendez-vous pour en discuter.
                             </p>
                         </div>
                         <div className="col-lg-4 start-project-block"  >
@@ -30,7 +29,7 @@ function Footer() {
                     <div className="row" >
                         <div className="proverbe" >
                             <div className="logo-footer">
-                                <img src={logo} alt="log" height={62} width={58} />
+                                <img src={logo} alt="log" height={150} width={150} />
                             </div>
                             <div className="proverbe-text" >
                                 <p>

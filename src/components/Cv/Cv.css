@@ -17,14 +17,19 @@
 }
 
 .dowload{
-    color: #52C6D4;
-    border-color: #52C6D4 !important;
+    color: #152032 !important;
+    border-color: #152032 !important;
     border-radius: 200px !important;
     font-weight: 600 !important;
     border-width: 2px !important;
     font-size: 18px !important;
     padding: 0.7rem !important;
     padding: 0.6em 2em !important;
+}
+
+.dowload:hover{
+    background-color: #152032 !important;
+    color: white !important;
 }
 
 a{

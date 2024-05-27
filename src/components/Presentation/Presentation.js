@@ -14,11 +14,10 @@ function Presentation() {
                             <h3>Salut, je suis Fawzy. Ravi de vous rencontrer.</h3><br />
                             <div className='presentation-text' >
                                 <p>
-                                    Depuis le début de mon parcours en tant que développeur full-stack
-                                    il y a près de 5 ans, j'ai effectué du travail pour des agences, pour créer
-                                    des produits numériques destinés à la fois aux entreprises et aux consommateurs.
-                                    Je suis tranquillement confiant, naturellement curieux et je travaille sans cesse
-                                    à améliorer mes competence, un problème de conception à la fois.
+                                    Depuis le début de ma carrière en tant que développeur full-stack il y a près de cinq ans, 
+                                    j'ai travaillé avec diverses agences pour créer des produits numériques destinés à la fois
+                                    aux entreprises et aux consommateurs. Je suis sereinement confiant, naturellement curieux, 
+                                    et je m'efforce constamment d'améliorer mes compétences, en résolvant un problème de conception à la fois.
                                 </p>
                             </div>
                         </div>
