@@ -33,6 +33,13 @@ export const entreprises = [
         nom:'AMUNDI',
         lien:''
     }
+    ,
+    {
+        id: ++id,
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFHX28jpy2xVqRQwgyVRhJkAdmcrkYeteJbA&s',
+        nom:'AMUNDI',
+        lien:''
+    }
 
 
 ]

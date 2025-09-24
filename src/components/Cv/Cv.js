@@ -13,7 +13,7 @@ function Cv() {
                 <p className='cv-question-text' >Télecharger mon Cv afin d'en savoir sur mon profil.</p>
             </div>
             <div className='cv-button-block' >
-                <Button href='https://www.canva.com/design/DAGQG01Uscs/dbmJSEHtMf-NEQPWNFAMyg/view?utm_content=DAGQG01Uscs&utm_campaign=designshare&utm_medium=link&utm_source=editor' className='dowload' target="_blank" variant="outline-primary"> Telecharger ICI ! </Button>
+                <Button href='https://www.canva.com/design/DAGirXhcBSs/7wWkbfrI3F3azNTU9YK7Ew/view?utm_content=DAGirXhcBSs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8c47c10c5b' className='dowload' target="_blank" variant="outline-primary"> Telecharger ICI ! </Button>
             </div>
         </div>
     );
